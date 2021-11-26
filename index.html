@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de Onclick</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    
+        <div class="fundo">
+            <div class="header"> 
+                <h1>s u s h i n c a s a</h1>  
+                <h2> Avalie os nossos produtos e nos ajude a manter o padrão de qualidade ideal para os nossos clientes</h2>  
+                <div class="cont">
+                    <div class="um">
+                        <div class="form">
+                            <span>Esolha uma nota de 0 a 10 para indicar sua satisfação com nossos produtos<span>
+                            <form id="nota">
+                                <span>Nigirizushi</span>  
+                                <input type="number" class="nota" id="notaNigirizushi" placeholder="nota">
+                                <span>Makizushi</span>  
+                                <input type="number" class="nota" id="notaMakizushi" placeholder="nota">
+                                <span>Tekkamaki</span>  
+                                <input type="number" class="nota" id="notaTekkamaki" placeholder="nota">
+                                <span>Uramaki</span>  
+                                <input type="number" class="nota" id="notaUramaki" placeholder="nota">
+                                <span>Temaki</span>  
+                                <input type="number" class="nota" id="notaTemaki" placeholder="nota"><br />
+                                <input type="button" id="submeter" value="subter avaliação" onclick="resultado()">
+                            </form>
+                        </div>  
+                    <div class="resultado">
+                        <span id="med">    Média obtida através da pesquisa de satisfação</span>
+                            <table>
+                                <tr>
+                                    <td>Nigirizushi</td>
+                                    <td><span id="resultadoum"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Makizushi</td>
+                                    <td><span id="resultadodois"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Tekkamaki</td>
+                                    <td><span id="resultadotres"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Uramaki</td>
+                                    <td><span id="resultadoquatro"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Temaki</td>
+                                    <td><span id="resultadocinco"></span></td>
+                                </tr>
+                             </table>
+                    </div>  
+                   
+            </div>
+            </div>
+        </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
